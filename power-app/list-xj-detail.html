@@ -1,0 +1,551 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<title>智慧电厂APP</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="format-detection" content="email=no" />
+<meta name="apple-mobile-web-app-title" content="智慧电厂APP">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<link href="css/base.css" rel="stylesheet" type="text/css">
+<link href="css/swiper.min.css" rel="stylesheet">
+<link href="css/select.css" rel="stylesheet">
+<link href="css/list.css" rel="stylesheet" type="text/css">
+<link href="css/items.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/dyselect.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+</head>
+<body>
+<div class="main">
+  <div class="con flex-between top">
+    <div class="top-l"><a href="index.html"><img src="images/bar-ico1.png" width="42" height="42" alt=""/><span>巡检任务</span></a></div>
+    <div class="top-r"><img src="images/top-r.png" width="182" height="60" alt=""/> </div>
+  </div>
+  <div class="list detail bord-left-unnormal">
+    <div class="item-tit flex-between">
+      <h2 class="detail-tit">每天锅炉巡线</h2>
+      <span class="txt-unnormal">异常</span> </div>
+    <div class="item-con flex-between">
+      <dl class="item-l">
+        <dd class="flex-between">
+          <p class="p1">任务编号</p>
+          <p class="p2">HZCS4221</p>
+        </dd>
+        <dd class="flex-between">
+          <p class="p1">巡检区域</p>
+          <p class="p2">A区域、E区域</p>
+        </dd>
+        <dd class="flex-between">
+          <p class="p1">巡检班组</p>
+          <p class="p2">检修一班</p>
+        </dd>
+        <dd class="flex-between">
+          <p class="p1">巡检总时长</p>
+          <p class="p2">120 分钟</p>
+        </dd>
+        <dd class="flex-between">
+          <p class="p1">巡检设备总数</p>
+          <p class="p2">5 台</p>
+        </dd>
+        <dd class="flex-between">
+          <p class="p1">巡检时间</p>
+          <p class="p2">2020-03-15 09:15:00</p>
+        </dd>
+        <dd class="flex-between">
+          <p class="p1">开始时间</p>
+          <p class="p2">2020-03-15 09:14:50</p>
+        </dd>
+        <dd class="flex-between">
+          <p class="p1">结束时间</p>
+          <p class="p2">2020-03-15 09:17:30</p>
+        </dd>
+      </dl>
+    </div>
+  </div>
+  <div class="items">
+    <div class="items-tit flex-between">
+      <h2>巡检设备</h2>
+      <span>5/5</span> </div>
+    <ul>
+      <li class="normal">
+        <div class="flex-between">
+          <div class="items-l">#2给煤机</div>
+          <div class="items-r"><span class="btn-more">正常</span></div>
+        </div>
+        <ul>
+          <li class="type1">
+            <div class="flex-between">
+              <div class="items-l">1、滚筒螺丝是否有异常？</div>
+              <div class="items-r"><span class="btn1">正常</span></div>
+            </div>
+          </li>
+          <li class="type1">
+            <div class="flex-between type1">
+              <div class="items-l">2、前后轴瓦及减速机润滑油量是否异常？</div>
+              <div class="items-r"><span class="btn2 red">异常</span></div>
+            </div>
+          </li>
+          <li class="type2">
+            <div class="items-l">3、给水箱的给水温度值：</div>
+            <div class="flex-between">
+              <div class="items-l">
+                <input class="inps" type="text" value="58.6" disabled>
+              </div>
+              <div class="items-r"></div>
+            </div>
+          </li>
+          <li class="type3">
+            <div class="items-l">4、压力表显示的压力值：</div>
+            <div class="items-l">
+              <input class="inps" type="text" value="1.65" disabled>
+            </div>
+            <div class="up-photo-tit flex-between">
+              <h3>上传重要检查项照片</h3>
+            </div>
+            <dl class="up-photo flex-row">
+              <dd>
+                <div class="photos"><img src="images/pic1.jpg" width="142" height="142"  alt=""/>
+                  <input class="js_upFile cover1 photos-btn" type="file" name="cover" accept="image/*" capture="camera" multiple />
+                </div>
+              </dd>
+              <dd>
+                <div class="photos"><img src="images/pic2.jpg" width="142" height="142"  alt=""/>
+                  <input class="js_upFile cover1 photos-btn" type="file" name="cover" accept="image/*" capture="camera" multiple />
+                  </a></div>
+              </dd>
+             
+            </dl>
+          </li>
+          <li class="type4">
+            <div class="items-l">5、磨煤机外观情况</div>
+            <dl>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_0" checked disabled>
+                  <span></span> </label>
+                <p>磨煤机各部位无漏风现象</p>
+              </dd>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_1" disabled>
+                  <span></span> </label>
+                <p>磨煤机各部位无漏粉现象</p>
+              </dd>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_2" checked disabled>
+                  <span></span> </label>
+                <p>磨煤机各部位无漏油现象</p>
+              </dd>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_3" checked disabled>
+                  <span></span> </label>
+                <p>磨煤机无明显振动、声音正常</p>
+              </dd>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_4" disabled>
+                  <span></span> </label>
+                <p>磨煤机顶部及各处无积粉</p>
+              </dd>
+            </dl>
+          </li>
+          <li class="type5">
+            <div class="items-l">备注：</div>
+            <textarea class="textarea" disabled>减速机润滑油量需补充</textarea>
+          </li>
+        </ul>
+      </li>
+      <li class="normal">
+        <div class="flex-between">
+          <div class="items-l">#2柴油发电机</div>
+          <div class="items-r"><span class="btn-more">正常</span></div>
+        </div>
+        <ul>
+          <li class="type1">
+            <div class="flex-between">
+              <div class="items-l">1、滚筒螺丝是否有异常？</div>
+              <div class="items-r"><span class="btn1">正常</span></div>
+            </div>
+          </li>
+          <li class="type1">
+            <div class="flex-between type1">
+              <div class="items-l">2、前后轴瓦及减速机润滑油量是否异常？</div>
+              <div class="items-r"><span class="btn2 red">异常</span></div>
+            </div>
+          </li>
+          <li class="type2">
+            <div class="items-l">3、给水箱的给水温度值：</div>
+            <div class="flex-between">
+              <div class="items-l">
+                <input class="inps" type="text" value="58.6" disabled>
+              </div>
+              <div class="items-r"></div>
+            </div>
+          </li>
+          <li class="type3">
+            <div class="items-l">4、压力表显示的压力值：</div>
+            <div class="items-l">
+              <input class="inps" type="text" value="1.65" disabled>
+            </div>
+            <div class="up-photo-tit flex-between">
+              <h3>上传重要检查项照片</h3>
+            </div>
+            <dl class="up-photo flex-row">
+              <dd>
+                <div class="photos"><img src="images/pic1.jpg" width="142" height="142"  alt=""/>
+                  <input class="js_upFile cover1 photos-btn" type="file" name="cover" accept="image/*" capture="camera" multiple />
+                </div>
+              </dd>
+              <dd>
+                <div class="photos"><img src="images/pic2.jpg" width="142" height="142"  alt=""/>
+                  <input class="js_upFile cover1 photos-btn" type="file" name="cover" accept="image/*" capture="camera" multiple />
+                  </a></div>
+              </dd>
+             
+            </dl>
+          </li>
+          <li class="type4">
+            <div class="items-l">5、磨煤机外观情况</div>
+            <dl>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_0" checked disabled>
+                  <span></span> </label>
+                <p>磨煤机各部位无漏风现象</p>
+              </dd>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_1" disabled>
+                  <span></span> </label>
+                <p>磨煤机各部位无漏粉现象</p>
+              </dd>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_2" checked disabled>
+                  <span></span> </label>
+                <p>磨煤机各部位无漏油现象</p>
+              </dd>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_3" checked disabled>
+                  <span></span> </label>
+                <p>磨煤机无明显振动、声音正常</p>
+              </dd>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_4" disabled>
+                  <span></span> </label>
+                <p>磨煤机顶部及各处无积粉</p>
+              </dd>
+            </dl>
+          </li>
+          <li class="type5">
+            <div class="items-l">备注：</div>
+            <textarea class="textarea" disabled>减速机润滑油量需补充</textarea>
+          </li>
+        </ul>
+      </li>
+      <li class="normal">
+        <div class="flex-between">
+          <div class="items-l">#2配电盘</div>
+          <div class="items-r"><span class="btn-more">正常</span></div>
+        </div>
+        <ul>
+          <li class="type1">
+            <div class="flex-between">
+              <div class="items-l">1、滚筒螺丝是否有异常？</div>
+              <div class="items-r"><span class="btn1">正常</span></div>
+            </div>
+          </li>
+          <li class="type1">
+            <div class="flex-between type1">
+              <div class="items-l">2、前后轴瓦及减速机润滑油量是否异常？</div>
+              <div class="items-r"><span class="btn2 red">异常</span></div>
+            </div>
+          </li>
+          <li class="type2">
+            <div class="items-l">3、给水箱的给水温度值：</div>
+            <div class="flex-between">
+              <div class="items-l">
+                <input class="inps" type="text" value="58.6" disabled>
+              </div>
+              <div class="items-r"></div>
+            </div>
+          </li>
+          <li class="type3">
+            <div class="items-l">4、压力表显示的压力值：</div>
+            <div class="items-l">
+              <input class="inps" type="text" value="1.65" disabled>
+            </div>
+            <div class="up-photo-tit flex-between">
+              <h3>上传重要检查项照片</h3>
+            </div>
+            <dl class="up-photo flex-row">
+              <dd>
+                <div class="photos"><img src="images/pic1.jpg" width="142" height="142"  alt=""/>
+                  <input class="js_upFile cover1 photos-btn" type="file" name="cover" accept="image/*" capture="camera" multiple />
+                </div>
+              </dd>
+              <dd>
+                <div class="photos"><img src="images/pic2.jpg" width="142" height="142"  alt=""/>
+                  <input class="js_upFile cover1 photos-btn" type="file" name="cover" accept="image/*" capture="camera" multiple />
+                  </a></div>
+              </dd>
+             
+            </dl>
+          </li>
+          <li class="type4">
+            <div class="items-l">5、磨煤机外观情况</div>
+            <dl>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_0" checked disabled>
+                  <span></span> </label>
+                <p>磨煤机各部位无漏风现象</p>
+              </dd>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_1" disabled>
+                  <span></span> </label>
+                <p>磨煤机各部位无漏粉现象</p>
+              </dd>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_2" checked disabled>
+                  <span></span> </label>
+                <p>磨煤机各部位无漏油现象</p>
+              </dd>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_3" checked disabled>
+                  <span></span> </label>
+                <p>磨煤机无明显振动、声音正常</p>
+              </dd>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_4" disabled>
+                  <span></span> </label>
+                <p>磨煤机顶部及各处无积粉</p>
+              </dd>
+            </dl>
+          </li>
+          <li class="type5">
+            <div class="items-l">备注：</div>
+            <textarea class="textarea" disabled>减速机润滑油量需补充</textarea>
+          </li>
+        </ul>
+      </li>
+      <li class="normal">
+        <div class="flex-between">
+          <div class="items-l">#2暖风器舒水站</div>
+          <div class="items-r"><span class="btn-more">正常</span></div>
+        </div>
+        <ul>
+          <li class="type1">
+            <div class="flex-between">
+              <div class="items-l">1、滚筒螺丝是否有异常？</div>
+              <div class="items-r"><span class="btn1">正常</span></div>
+            </div>
+          </li>
+          <li class="type1">
+            <div class="flex-between type1">
+              <div class="items-l">2、前后轴瓦及减速机润滑油量是否异常？</div>
+              <div class="items-r"><span class="btn2 red">异常</span></div>
+            </div>
+          </li>
+          <li class="type2">
+            <div class="items-l">3、给水箱的给水温度值：</div>
+            <div class="flex-between">
+              <div class="items-l">
+                <input class="inps" type="text" value="58.6" disabled>
+              </div>
+              <div class="items-r"></div>
+            </div>
+          </li>
+          <li class="type3">
+            <div class="items-l">4、压力表显示的压力值：</div>
+            <div class="items-l">
+              <input class="inps" type="text" value="1.65" disabled>
+            </div>
+            <div class="up-photo-tit flex-between">
+              <h3>上传重要检查项照片</h3>
+            </div>
+            <dl class="up-photo flex-row">
+              <dd>
+                <div class="photos"><img src="images/pic1.jpg" width="142" height="142"  alt=""/>
+                  <input class="js_upFile cover1 photos-btn" type="file" name="cover" accept="image/*" capture="camera" multiple />
+                </div>
+              </dd>
+              <dd>
+                <div class="photos"><img src="images/pic2.jpg" width="142" height="142"  alt=""/>
+                  <input class="js_upFile cover1 photos-btn" type="file" name="cover" accept="image/*" capture="camera" multiple />
+                  </a></div>
+              </dd>
+             
+            </dl>
+          </li>
+          <li class="type4">
+            <div class="items-l">5、磨煤机外观情况</div>
+            <dl>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_0" checked disabled>
+                  <span></span> </label>
+                <p>磨煤机各部位无漏风现象</p>
+              </dd>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_1" disabled>
+                  <span></span> </label>
+                <p>磨煤机各部位无漏粉现象</p>
+              </dd>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_2" checked disabled>
+                  <span></span> </label>
+                <p>磨煤机各部位无漏油现象</p>
+              </dd>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_3" checked disabled>
+                  <span></span> </label>
+                <p>磨煤机无明显振动、声音正常</p>
+              </dd>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_4" disabled>
+                  <span></span> </label>
+                <p>磨煤机顶部及各处无积粉</p>
+              </dd>
+            </dl>
+          </li>
+          <li class="type5">
+            <div class="items-l">备注：</div>
+            <textarea class="textarea" disabled>减速机润滑油量需补充</textarea>
+          </li>
+        </ul>
+      </li>
+      <li class="unnormal">
+        <div class="flex-between">
+          <div class="items-l">#2磨煤机本体</div>
+          <div class="items-r"><span class="btn-more">异常</span></div>
+        </div>
+        <ul>
+          <li class="type1">
+            <div class="flex-between">
+              <div class="items-l">1、滚筒螺丝是否有异常？</div>
+              <div class="items-r"><span class="btn1">正常</span></div>
+            </div>
+          </li>
+          <li class="type1">
+            <div class="flex-between type1">
+              <div class="items-l">2、前后轴瓦及减速机润滑油量是否异常？</div>
+              <div class="items-r"><span class="btn2 red">异常</span></div>
+            </div>
+          </li>
+          <li class="type2">
+            <div class="items-l">3、给水箱的给水温度值：</div>
+            <div class="flex-between">
+              <div class="items-l">
+                <input class="inps" type="text" value="58.6" disabled>
+              </div>
+              <div class="items-r"></div>
+            </div>
+          </li>
+          <li class="type3">
+            <div class="items-l">4、压力表显示的压力值：</div>
+            <div class="items-l">
+              <input class="inps" type="text" value="1.65" disabled>
+            </div>
+            <div class="up-photo-tit flex-between">
+              <h3>上传重要检查项照片</h3>
+            </div>
+            <dl class="up-photo flex-row">
+              <dd>
+                <div class="photos"><img src="images/pic1.jpg" width="142" height="142"  alt=""/>
+                  <input class="js_upFile cover1 photos-btn" type="file" name="cover" accept="image/*" capture="camera" multiple />
+                </div>
+              </dd>
+              <dd>
+                <div class="photos"><img src="images/pic2.jpg" width="142" height="142"  alt=""/>
+                  <input class="js_upFile cover1 photos-btn" type="file" name="cover" accept="image/*" capture="camera" multiple />
+                  </a></div>
+              </dd>
+             
+            </dl>
+          </li>
+          <li class="type4">
+            <div class="items-l">5、磨煤机外观情况</div>
+            <dl>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_0" checked disabled>
+                  <span></span> </label>
+                <p>磨煤机各部位无漏风现象</p>
+              </dd>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_1" disabled>
+                  <span></span> </label>
+                <p>磨煤机各部位无漏粉现象</p>
+              </dd>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_2" checked disabled>
+                  <span></span> </label>
+                <p>磨煤机各部位无漏油现象</p>
+              </dd>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_3" checked disabled>
+                  <span></span> </label>
+                <p>磨煤机无明显振动、声音正常</p>
+              </dd>
+              <dd class="flex-row">
+                <label>
+                  <input class="check-box" type="checkbox" name="CheckboxGroup1" value="" id="CheckboxGroup1_4" disabled>
+                  <span></span> </label>
+                <p>磨煤机顶部及各处无积粉</p>
+              </dd>
+            </dl>
+          </li>
+          <li class="type5">
+            <div class="items-l">备注：</div>
+            <textarea class="textarea" disabled>减速机润滑油量需补充</textarea>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>  
+</div>
+<div class="btmbar hide">
+  <ul class="flex-row">
+    <li> <a href="index.html" title=""> <img src="images/bar-ico1.png" width="42" height="42" alt=""/> <span>首页</span> </a> </li>
+    <li class="on"> <a href="list-xj-device.html" title=""> <img src="images/bar-ico2-on.png" width="42" height="42" alt=""/> <span>任务</span> </a> </li>
+    <li> <a href="message.html" title=""> <img src="images/bar-ico3.png" width="42" height="42" alt=""/> <span>消息</span> </a> </li>
+    <li> <a href="my.html" title=""> <img src="images/bar-ico4.png" width="42" height="42" alt=""/> <span>我的</span> </a> </li>
+  </ul>
+</div>
+<script>
+$(function() { 
+  $('.btn-more').click(function(){
+    $(this).parents('li').find('ul').toggle();
+    $(this).parents('li').siblings('li').find('ul').hide();
+  });
+  $('.items li').click(function(){
+    $(this).addClass('on');
+    $(this).siblings('li').removeClass('on');
+  });
+
+})
+</script>
+</body>
+</html>
